@@ -1,4 +1,5 @@
 import { useState } from "react";
+import InputField from "./components/InputField"
 
 function App() {
   const [chaiCount, setChaiCount] = useState(1);
@@ -8,6 +9,7 @@ function App() {
       <h1 className="text-3xl" onClick={() => setChaiCount(chaiCount + 1)}>
         ☕
       </h1>
+      <InputField />
     </>
   );
 }
