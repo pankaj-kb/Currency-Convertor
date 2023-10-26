@@ -1,3 +1,3 @@
-import inputField from "./InputField"
+import InputField from "./InputField"
 
-export {inputField}
+export {InputField}
